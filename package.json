@@ -1,0 +1,20 @@
+{
+  "name": "finder",
+  "version": "1.0.0",
+  "description": "this finder of ever solution",
+  "license": "ISC",
+  "author": "umesh joshi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
